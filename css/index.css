@@ -495,8 +495,14 @@
     font-family: 'Gilroy-Bold';
     margin-right: 20px;
 }
-.special-pt-100{
+
+.special-pt-100 {
     padding-top: 100px;
+}
+
+.special-pt-55 {
+    padding-top: 55px;
+    text-align: center;
 }
 
 .namestep {
@@ -650,8 +656,6 @@
     text-decoration: underline rgba(92, 195, 253, 0.3);
 }
 
-.different-table {}
-
 .different {
     display: flex;
     align-items: start;
@@ -683,13 +687,16 @@
     text-align: left;
 
 }
-.different-column1{
+
+.different-column1 {
     width: 446px;
 }
-.different-column2{
+
+.different-column2 {
     width: 356px;
 }
-.different-image{
+
+.different-image {
     width: 56px;
     height: 56px;
     margin-bottom: 15px;
@@ -713,9 +720,157 @@
     margin-bottom: 15px;
 }
 
+.company-tag {
+    padding-bottom: 25px;
+    color: #fff;
+    font-family: 'Tactic Sans Extended';
+    font-size: 110px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 151.8px;
+    text-align: center;
+
+}
+
+.company-world {
+    color: #fff;
+    font-family: 'Gilroy-Regular';
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45.45px;
+    text-align: center;
+
+}
+
+.about-company {
+    display: flex;
+    align-items: start;
+    margin-bottom: 100px;
+}
+
+.about-company__tag {
+    width: 245px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36.36px;
+    text-align: left;
+
+}
+
+.about-company__text {
+    margin: 0;
+    color: #fff;
+    font-family: 'Gilroy-Regular';
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33.33px;
+    text-align: left;
+
+}
+
+.about-company__tag-line {
+    overflow: hidden;
+}
 
 
+.about-company__tag-line::after {
 
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 100px;
+    height: 0.8px;
+    border: solid #fff;
+    border-width: 0 76px;
+    margin-left: 8px;
+}
+
+.company-experience {
+    height: 216px;
+    display: flex;
+    justify-content: center;
+}
+
+.experience__num {
+    margin: 0;
+    margin-top: 40px;
+    font-family: 'Gilroy-Bold';
+    font-size: 90px;
+    font-weight: 900;
+    line-height: 69.52px;
+    text-align: center;
+    background-image: linear-gradient(180deg, #5CC3FD 0%, #4A5EBC 100%);
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+}
+
+.experience__text {
+    width: 202px;
+    margin: 0;
+    color: #fff;
+    font-family: 'Gilroy-Regular';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+
+}
+
+.experience__separator {
+    height: 216px;
+    width: 0.5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0px 80px;
+
+}
+
+.office-photo {
+    margin-bottom: 100px;
+}
+
+.office-photo__image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.residents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.residents__tag, .residents__proof{
+    margin: 0;
+}
+.residents__tag {
+    width: 680px;
+    color: #fff;
+    font-family: 'Gilroy-Bold';
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.residents__proof {
+    color: #fff;
+    font-family: 'Gilroy-Regular';
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+
+}
 
 body {
     background-color: black;
@@ -1173,6 +1328,18 @@ body {
     margin-bottom: 120px;
 }
 
+.general-tags {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divname-about {
+    font-family: 'Tactic Sans Extended';
+    font-size: 70px;
+    margin-bottom: 32px;
+}
+
 .divname {
     font-family: 'Tactic Sans Extended';
     font-size: 70px;
@@ -1180,7 +1347,8 @@ body {
 }
 
 .divname p,
-.divname-service p {
+.divname-service p,
+.divname-about p {
     color: #fff;
     margin: 0;
     font-weight: 1000;

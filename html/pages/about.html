@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BSKYT19TEP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-BSKYT19TEP');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О компании</title>
+    <link rel="stylesheet" href="./../../css/normalize.css">
+    <link rel="stylesheet" href="./../../css/index.css">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="О компании">
+    <script src="//code.jivo.ru/widget/tsv8S9r13m" async></script>
+</head>
+
+<body>
+    <div class="full_thanks">
+        <div class="popup_thanks">
+            <p class="thanks_span">СПАСИБО<l style="color: #fff;">, ЧТО ОСТАВИЛИ</l> ЗАЯВКУ</p>
+            <p class="close" onclick="closeThanks()">Закрыть</p>
+        </div>
+    </div>
+    <div class="full_warning">
+        <div class="popup_warning">
+            <div style="text-align: right;">
+                <img class="popup_cross" onclick="clodeWarning()" src="./../../img/index_html/cross_close.svg" alt="">
+            </div>
+            <p class="name_popup">Ошибка!</p>
+            <p class="text_popup">
+                Все поля ввода обязательны для заполнения
+            </p>
+        </div>
+    </div>
+    <div class="full_popup_backcall">
+        <div class="popup_backcall">
+            <div style="text-align: right;">
+                <img class="popup_cross" onclick="backcall()" src="./../../img/index_html/cross_close.svg" alt="">
+            </div>
+            <p class="name_popup">Заявка на <l style="color: #5CC3FD;">разработку AR-приложения</l>
+            </p>
+            <form class="pop_form sendBackPopForm">
+                <input class="pop_input" name="name" type="text" placeholder="Как вас зовут?">
+                <input class="pop_input" name="number" type="text" placeholder="Номер телефона">
+                <button class="pop_button">Отправить</button>
+            </form>
+            <p class="agreement">При нажатии на кнопку «Отправить», я даю согласие на обработку <a href="#"
+                    style="text-decoration: underline; color: black;">Персональных данных.</a></p>
+        </div>
+    </div>
+    <div class="main_container" id="Главная">
+        <div class="header">
+            <div class="leftpart">
+                <img src="./../../img/index_html/VR.svg" onclick="document.location='./../../html/index.html'"
+                    class="logo">
+                <div class="navbar">
+                    <a onclick="document.location='./about.html'">О КОМПАНИИ</a>
+                    <a>УСЛУГИ <img src="../../img/index_html/arrow-down.svg" alt="" class="arrow-down"></a>
+                    <a>ПРОДУКТЫ <img src="../../img/index_html/arrow-down.svg" alt="" class="arrow-down"></a>
+                    <a onclick="document.location='./about.html#Кейсы'">КЕЙСЫ</a>
+                    <a>КОНТАКТЫ</a>
+                </div>
+
+            </div>
+            <div class="rightpart">
+                <div class="burger" onclick="navopen()"></div>
+                <div class="nav">
+                    <img class="cross" onclick="navopen()" src="./../../img/index_html/cross_close.svg" alt="">
+                    <div class="points">
+                        <div class="nav_point" onclick="document.location='./../html/index.html'">ГЛАВНАЯ</div>
+                        <div class="nav_point" onclick="document.location='./../html/index.html#Услуги'">УСЛУГИ</div>
+                        <div class="nav_point" onclick="document.location='./../html/index.html#ОКомпании'">О КОМПАНИИ
+                        </div>
+                        <div class="nav_point" onclick="document.location='./../html/index.html#ЦенностиКомпании'">НАШИ
+                            ЦЕННОСТИ</div>
+                        <div class="nav_point" onclick="document.location='./../html/index.html#Кейсы'">КЕЙСЫ</div>
+                        <div class="nav_point" onclick="document.location='./../html/index.html#СтекТехнологий'">СТЕК
+                            РАЗРАБОТКИ</div>
+                        <div class="nav_point" onclick="document.location='./../html/index.html#Вакансии'">ВАКАНСИИ
+                        </div>
+                        <div class="nav_point" onclick="document.location='./../html/index.html#ОтветыНаВопросы'">ОТВЕТЫ
+                            НА ВОПРОСЫ</div>
+                        <div class="nav_point" onclick="document.location='./../html/index.html#Новости'">НОВОСТИ</div>
+                        <div class="nav_point" onclick="document.location='./../html/index.html#Контакты'">КОНТАКТЫ
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main_container general-tags">
+        <div class="divname-about special-pt-55">
+            <p style="color: white; margin-bottom: 15px;">КОМПАНИЯ</p>
+            <p class="company-tag">
+                <l style="color: #5CC3FD;">В</l>Р
+            </p>
+            <p class="company-world">Взгляни на мир с другой стороны</p>
+        </div>
+
+        <div class="orderproject" onclick="backcall()">
+            Оставить заявку
+        </div>
+    </div>
+
+    <div class="main_container">
+        <div class="divname" id="ЦенностиКомпании">
+            <p style="color: white;">ЦЕННОСТИ КОМПАНИИ</p>
+        </div>
+        <div class="assets">
+            <div class="asset">
+                <p class="numasset">/1</p>
+                <p class="nameasset">ПОСТОЯННОЕ РАЗВИТИЕ И ОБУЧЕНИЕ</p>
+                <div class="lineasseat"></div>
+                <p class="textasset">
+                    Мы стремимся к постоянному росту и развитию наших сотрудников, поощряя их к обучению и
+                    самосовершенствованию.
+                </p>
+            </div>
+            <div class="asset">
+                <p class="numasset">/2</p>
+                <p class="nameasset">ИННОВАЦИИ И ТВОРЧЕСТВО</p>
+                <div class="lineasseat"></div>
+                <p class="textasset">
+                    Мы ценим новые идеи и нестандартные подходы к решению задач, так как это помогает нам создавать
+                    лучшие продукты и услуги.
+                </p>
+            </div>
+            <div class="asset">
+                <p class="numasset">/3</p>
+                <p class="nameasset">КОМАНДНАЯ РАБОТА</p>
+                <div class="lineasseat"></div>
+                <p class="textasset">
+                    Мы работаем вместе, чтобы достичь общих целей, и ценим сотрудничество и взаимопомощь.
+                </p>
+            </div>
+            <div class="asset">
+                <p class="numasset">/4</p>
+                <p class="nameasset">УВАЖЕНИЕ К КЛИЕНТАМ</p>
+                <div class="lineasseat"></div>
+                <p class="textasset">
+                    Мы стремимся предоставлять качественные услуги и продукты, которые удовлетворяют потребности наших
+                    клиентов.
+                </p>
+            </div>
+            <div class="asset">
+                <p class="numasset">/5</p>
+                <p class="nameasset">ОТКРЫТОСТЬ И ЧЕСТНОСТЬ</p>
+                <div class="lineasseat"></div>
+                <p class="textasset">
+                    Мы открыты для общения и готовы делиться своими знаниями и опытом с коллегами и партнерами.
+                </p>
+            </div>
+            <div class="asset">
+                <p class="numasset">/6</p>
+                <p class="nameasset" style="color: white; width: 70%;">ХОЧЕШЬ ПОПАСТЬ К НАМ В КОМАНДУ?</p>
+                <div class="lineasseat"></div>
+                <div onclick="scrollToElement('Вакансии')" class="watch_vacancy">Оставить заявку</div>
+                <!-- Подправить эту кнопку -->
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main_container">
+        <div class="divname" id="ОКомпании">
+            <p style="color: white;">О КОМПАНИИ</p>
+        </div>
+
+
+        <div class="about-company">
+            <div>
+                <p class="about-company__tag about-company__tag-line">НАША</p>
+                <p class="about-company__tag">МИССИЯ</p>
+            </div>
+            <p class="about-company__text">Обеспечить доступ к качественному, надежному и значимому программному
+                обеспечению для граждан РФ. Мы стремимся к созданию продуктов, которые упрощают жизнь людей, делают
+                ее более комфортной и безопасной.</p>
+            <img class="about-company__img" src="../../img/about_company/company1.png" alt="">
+        </div>
+
+        <div class="about-company">
+
+            <img class="about-company__img" style="margin-right: 50px;" src="../../img/about_company/company2.png"
+                alt="">
+            <div>
+                <p class="about-company__tag about-company__tag-line" style="width: 300px; margin-bottom: 20px;">НАША
+                    ЦЕЛЬ</p>
+
+                <p class="about-company__text">Мы ставим перед собой цель стать лидерами в сфере разработки
+                    отечественного ПО, обеспечивая независимость нашей страны от иностранных
+                    IT-решений.</p>
+            </div>
+        </div>
+
+        <div class="about-company" style="margin-bottom: 40px;">
+            <div>
+                <p class="about-company__tag about-company__tag-line">НАШЕ</p>
+                <p class="about-company__tag">МЫШЛЕНИЕ</p>
+            </div>
+
+            <div>
+                <p class="about-company__text" style="padding-bottom: 30px;">
+                    Компания ВР — это не просто разработчик программного обеспечения, это образ мышления, который
+                    позволяет видеть перспективы в любой проблеме и экспериментировать с разными подходами. Мы уверены,
+                    что всё вокруг создано людьми, которые не умнее нас, и это мотивирует нас к постоянным инновациям и
+                    изобретениям.
+                </p>
+                <p class="about-company__text">
+                    Наша команда состоит из любознательных и уверенных в себе специалистов, которые готовы разбираться в
+                    сложных вопросах и находить нестандартные решения. Мы смотрим на мир с другой стороны и видим
+                    возможности там, где другие видят только проблемы.
+                </p>
+            </div>
+        </div>
+        <img class="about-company__img" style="margin-bottom: 40px;" src="../../img/about_company/company3.png" alt="">
+        <p class="about-company__text" style="padding-bottom: 30px;">
+            ВР помогает своим клиентам и партнёрам преодолевать трудности и достигать успеха, используя передовые
+            технологии и инновационные подходы. Мы стремимся быть лидерами в своей отрасли и постоянно совершенствуем
+            свои продукты и услуги, чтобы соответствовать потребностям рынка.
+        </p>
+        <p class="about-company__text">
+            ВР — это образ мышления!
+        </p>
+
+    </div>
+
+    <div class="main_container">
+        <div class="divname" id="Экспертиза">
+            <p style="color: white;">ЭКСПЕРТИЗА</p>
+        </div>
+
+        <div class="company-experience">
+
+            <div>
+                <p class="experience__num">15+</p>
+                <p class="experience__text">Лет опыт разработчиков</p>
+            </div>
+            <div class="experience__separator"></div>
+
+            <div>
+                <p class="experience__num">20+</p>
+                <p class="experience__text">Выпущенных проектов</p>
+            </div>
+            <div class="experience__separator"></div>
+
+            <div>
+                <p class="experience__num">5</p>
+                <p class="experience__text">Внутренних проектов</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main_container">
+        <div class="divname" id="Кейсы">
+            <p style="color: white;">КЕЙСЫ</p>
+        </div>
+        <div class="cases">
+            <div class="case" onclick="document.location='./../html/prokrasivoye.html'">
+                <img src="./../../img/cases_prev/case_prokrasivoe.png" alt="" class="bgcase">
+                <div class="case-tags">
+                    <div class="case-tags__link">
+                        <p class="namecase">ПРОКРАСИВОЕ</p>
+                        <div class="case-tags__name_circle">
+                            <img src="../../img/index_html/case-arrow.svg" alt="">
+                        </div>
+                    </div>
+                    <p style="width: 210px;" class="aboutcase">Маркетплейс товаров в сфере косметологии</p>
+                </div>
+            </div>
+            <div class="case" onclick="document.location='./../html/technologii_klimata.html'">
+                <img src="./../../img/cases_prev/case_technology.png" alt="" class="bgcase">
+                <div class="case-tags">
+                    <div class="case-tags__link">
+                        <p class="namecase">ТЕХНОЛОГИИ КЛИМАТА</p>
+                        <div class="case-tags__name_circle">
+                            <img src="../../img/index_html/case-arrow.svg" alt="">
+                        </div>
+                    </div>
+                    <p style="width: 210px;" class="aboutcase">Сайт для компании по продаже сантехники</p>
+                </div>
+            </div>
+            <div class="case" onclick="document.location='./../html/avtovysota89.html'">
+                <img src="./../../img/cases_prev/case_AH89.png" alt="" class="bgcase">
+                <div class="case-tags">
+                    <div class="case-tags__link">
+                        <p class="namecase">АВТОВЫСОТА89</p>
+                        <div class="case-tags__name_circle">
+                            <img src="../../img/index_html/case-arrow.svg" alt="">
+                        </div>
+                    </div>
+                    <p style="width: 210px;" class="aboutcase">Сайт для компании по аренде спецтехники</p>
+                </div>
+            </div>
+
+            <div class="case" onclick="document.location='./../html/motoclub.html'">
+                <img src="./../../img/cases_prev/case_motoclub.png" alt="" class="bgcase">
+                <div class="case-tags">
+                    <div class="case-tags__link">
+                        <p class="namecase">MOTOCLUB</p>
+                        <div class="case-tags__name_circle">
+                            <img src="../../img/index_html/case-arrow.svg" alt="">
+                        </div>
+                    </div>
+                    <p style="width: 320px;" class="aboutcase">Индивидульная CRM-система для компании проката мотоциклов
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main_container">
+        <div class="divname" id="Партнеры">
+            <p style="color: white;">ПАРТНЕРЫ</p>
+        </div>
+        <div class="partners">
+            <img src="./../../img/partners/Motoclub.png" alt="">
+            <img src="./../../img/partners/ResoluteAttack.png" alt="">
+            <img src="./../../img/partners/Medline.png" alt="">
+            <img src="./../../img/partners/Gradient.png" alt="">
+            <img src="./../../img/partners/AIR.png" alt="">
+            <img src="./../../img/partners/PermGerb.png" alt="">
+            <img src="./../../img/partners/PermUniversity.png" alt="">
+            <img src="./../../img/partners/PermBussiness.png" alt="">
+            <img src="./../../img/partners/NumberValley.png" alt="">
+            <img src="./../../img/partners/Fotonica.png" alt="">
+            <img src="./../../img/partners/BR.png" alt="" style="margin: 0px 0px 0px 50px;">
+            <img src="./../../img/partners/InfRazv.png" alt="" style="margin: 0px 0px 0px 50px;">
+            <img src="./../../img/partners/Politeh.png" alt="" style="margin: 0px 0px 0px 50px;">
+            <img src="./../../img/partners/Morion.png" alt="" style="margin: 0px 0px 0px 50px;">
+
+        </div>
+    </div>
+
+    <div class="main_container">
+        <div class="divname" id="ФотоОфиса">
+            <p style="color: white;">ФОТО ОФИСА</p>
+        </div>
+
+        <div class="office-photo">
+            <div class="office-photo__image">
+                <img src="../../img/about_company/office/office1.png" alt="">
+                <img src="../../img/about_company/office/office2.png" alt="">
+            </div>
+            <div class="office-photo__image">
+                <img src="../../img/about_company/office/office3.png" alt="">
+                <img src="../../img/about_company/office/office4.png" alt="">
+            </div>
+            <div class="office-photo__image">
+                <img src="../../img/about_company/office/office5.png" alt="">
+                <img src="../../img/about_company/office/office6.png" alt="">
+            </div>
+            <div class="office-photo__image">
+                <img src="../../img/about_company/office/office7.png" alt="">
+                <img src="../../img/about_company/office/office8.png" alt="">
+            </div>
+        </div>
+
+        <div class="residents">
+            <p class="residents__tag">МЫ ЯВЛЯЕМСЯ РЕЗИДЕНТАМИ ТЕХНОПАРКА</p>
+            <p class="residents__proof">Нажмите на кнопку, чтобы увидеть доказательство</p>
+            <div class="orderproject">
+                Открыть
+            </div>
+        </div>
+
+    </div>
+
+    <div class="main_container">
+        <div class="divname" id="Услуги">
+            <p style="color: white;">
+                УСЛУГИ
+            </p>
+        </div>
+        <div class="cards">
+            <div class="card" onclick="document.location='./../html/website_development.html'">
+                <img class="card__image" src="./../../img/index_html/VR.svg" />
+                <p class="cardname">ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ</p>
+
+                <div class="submit">
+                    <a onclick="backcall()" class="submit_a">Оставить заявку</a>
+                </div>
+
+                <p class="card__hashtag">#ВЕБРАЗРАБОТКА</p>
+            </div>
+            <div class="card" onclick="document.location='./../html/erp_crm_system.html'">
+                <img class="card__image" src="./../../img/index_html/VR.svg" />
+                <p class="cardname">МОБИЛЬНАЯ РАЗРАБОТКА</p>
+
+                <div class="submit">
+                    <a onclick="backcall()" class="submit_a">Оставить заявку</a>
+                </div>
+
+                <p class="card__hashtag">#ВЕБРАЗРАБОТКА</p>
+            </div>
+            <div class="card" onclick="document.location='./../html/mobile_apps.html'">
+                <img class="card__image" src="./../../img/index_html/VR.svg" />
+
+                <p class="cardname">РАЗРАБОТКА ВЕБ-СЕРВИСОВ</p>
+
+
+                <div class="submit">
+                    <a onclick="backcall()" class="submit_a">Оставить заявку</a>
+                </div>
+                <p class="card__hashtag">#ВЕБРАЗРАБОТКА</p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="main_container" style="margin-bottom: 90px;">
+        <div class="divname" id="Контакты">
+            <p style="color: white;">КОНТАКТЫ</p>
+        </div>
+        <div class="contacts">
+            <div>
+                <p class="company_name">OOO <l style="color: #5CC3FD;">"ВЕБ РАЗРАБОТКА"</l>
+                </p>
+                <p class="contact">
+                    <l style="color: white;">Почта: </l>vr-it.info@yandex.ru
+                </p>
+                <p class="contact">
+                    <l style="color: white;">Телефон: </l>+7 (995) 668-35-84
+                </p>
+                <p class="contact">
+                    <l style="color: white;">Адрес: </l>шоссе космонавтов, д. 111д, подъезд 3, оф. 3
+                </p>
+                <a class="contact" href="https://vk.com/vr_it_ru"
+                    style="text-decoration: underline; text-decoration-color: white; cursor: pointer;">
+                    <l style="color: white;">Мы </l>Вконтакте
+                </a>
+            </div>
+            <div class="map" id="yandex-map"></div>
+        </div>
+    </div>
+    <div class="main_container">
+        <div class="footer">
+            <div>
+                <p class="column_name">УСЛУГИ</p>
+                <div class="foot_link" onclick="document.location='./pages/services/fatherland.html'">Разработка ПО
+                </div>
+                <div class="foot_link" onclick="document.location='./pages/services/mobile-service.html'">Разработка
+                    мобильного
+                    приложений</div>
+                <div class="foot_link" onclick="document.location='./pages/services/web-service.html'">Разработка
+                    веб-сервисов</div>
+            </div>
+            <div>
+                <p class="column_name">ПРОДУКТЫ</p>
+                <div class="foot_link">Крипт.Клауд</div>
+                <div class="foot_link">ВОРКО</div>
+                <div class="foot_link">Фото-РЭЙ</div>
+            </div>
+            <div>
+                <p class="column_name">КОНТАКТЫ</p>
+                <div class="foot_link">+7 (995) 668-35-84</div>
+                <div class="foot_link">vr-it.info@yandex.ru</div>
+            </div>
+            <div style="display: flex;">
+                <a href="https://t.me/ooo_vebrazrabotka" style="margin-right: 30px;">
+                    <img class="social_logo" src="./../../img/index_html/tg-icon.svg"></a>
+                <a href="https://vk.com/vr_it_ru"><img class="social_logo" src="./../../img/index_html/vk-icon.svg"
+                        alt=""></a>
+            </div>
+        </div>
+        <div class="line"></div>
+        <p style="color: #fff; font-family: 'Gilroy-Regular'; font-size: 20px; margin-top: 30px;">
+            <l style="margin-right: 10px;">©</l> «ВР» 2019-2024
+        </p>
+    </div>
+
+    <script src="./../../js/ar_apps.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=79acaec8-d0fe-44ae-a71f-d56ef2e3ef7e&lang=ru_RU"></script>
+    <script src="./../../js/yanmap.js"></script>
+    <script src="./../../js/form/main_form.js"></script>
+    <script src="./../../js/form/pop_form.js"></script>
+</body>
+
+</html>
