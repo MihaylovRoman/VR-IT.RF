@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BSKYT19TEP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BSKYT19TEP');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кейс - разработка СРМ</title>
+    <link rel="stylesheet" href="./../css/normalize.css">
+    <link rel="stylesheet" href="./../css/motoclub.css">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="Разработка сайта для мотоклуба: бронирование и управление заказами, управление персоналом и учет занятости, финансовый учет и отчетность. 
+    Мы создаем веб-платформу, обеспечивающую эффективное управление бизнесом и оперативное взаимодействие сотрудников и клиентов.">
+    <script src="//code.jivo.ru/widget/tsv8S9r13m" async></script>
+</head>
+<body>
+    <div class="full_thanks">
+        <div class="popup_thanks">
+            <p class="thanks_span">СПАСИБО<l style="color: #fff;">, ЧТО ОСТАВИЛИ</l> ЗАЯВКУ</p>
+            <p class="close" onclick="closeThanks()">Закрыть</p>
+        </div>
+    </div>
+    <div class="full_warning">
+        <div class="popup_warning">
+            <div style="text-align: right;">
+                <img class="popup_cross" onclick="clodeWarning()" src="./../img/index_html/cross_close.svg" alt="">
+            </div>
+            <p class="name_popup">Ошибка!</p>
+            <p class="text_popup">
+                Все поля ввода обязательны для заполнения
+            </p>
+        </div>
+    </div>
+    <div class="full_popup_backcall">
+        <div class="popup_backcall">
+            <div style="text-align: right;">
+                <img class="popup_cross" onclick="backcall()" src="./../img/index_html/cross_close.svg" alt="">
+            </div>
+            <p class="name_popup">Заявка на <l style="color: #5CC3FD;">обратный звонок</l> </p>
+            <form class="pop_form sendBackPopForm">
+                <input class="pop_input" name="name" type="text" placeholder="Как вас зовут?">
+                <input class="pop_input" name="number" type="text" placeholder="Номер телефона">
+                <button class="pop_button">Отправить</button>
+            </form>
+            <p class="agreement">При нажатии на кнопку «Отправить», я даю согласие на обработку <a href="#" style="text-decoration: underline; color: black;">Персональных данных.</a></p>
+        </div>
+    </div>
+    <div class="main_container" id="Главная">
+        <div class="header">
+            <div class="leftpart">
+                <img src="./../../img/index_html/VR.svg" onclick="document.location='./../../html/index.html'"
+                    class="logo">
+                <div class="navbar">
+                    <a onclick="document.location='./../html/index.html#ОКомпании'">О КОМПАНИИ</a>
+                    <a>УСЛУГИ <img src="../../img/index_html/arrow-down.svg" alt="" class="arrow-down"></a>
+                    <a>ПРОДУКТЫ <img src="../../img/index_html/arrow-down.svg" alt="" class="arrow-down"></a>
+                    <a>КЕЙСЫ</a>
+                    <a>КОНТАКТЫ</a>
+                </div>
+
+            </div>
+            <div class="rightpart">
+                <div class="burger" onclick="navopen()"></div>
+                <div class="nav">
+                    <img class="cross" onclick="navopen()" src="./../../img/index_html/cross_close.svg" alt="">
+                    <div class="points">
+                        <div class="nav_point" onclick="document.location='./../html/index.html'">ГЛАВНАЯ</div>
+                        <div class="nav_point" onclick="document.location='./../html/index.html#Услуги'">УСЛУГИ</div>
+                        <div class="nav_point" onclick="document.location='./../html/index.html#ОКомпании'">О КОМПАНИИ
+                        </div>
+                        <div class="nav_point" onclick="document.location='./../html/index.html#ЦенностиКомпании'">НАШИ
+                            ЦЕННОСТИ</div>
+                        <div class="nav_point" onclick="document.location='./../html/index.html#Кейсы'">КЕЙСЫ</div>
+                        <div class="nav_point" onclick="document.location='./../html/index.html#СтекТехнологий'">СТЕК
+                            РАЗРАБОТКИ</div>
+                        <div class="nav_point" onclick="document.location='./../html/index.html#Вакансии'">ВАКАНСИИ
+                        </div>
+                        <div class="nav_point" onclick="document.location='./../html/index.html#ОтветыНаВопросы'">ОТВЕТЫ
+                            НА ВОПРОСЫ</div>
+                        <div class="nav_point" onclick="document.location='./../html/index.html#Новости'">НОВОСТИ</div>
+                        <div class="nav_point" onclick="document.location='./../html/index.html#Контакты'">КОНТАКТЫ
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main_container">
+        <div class="divname">
+            <p style="color: white;" class="special-pt-100">КЕЙС "MOTOCLUB"</p>
+        </div>
+        <div class="client">
+            <div class="client_text">
+                <p style="color: #5CC3FD;">Клиент: </p>
+                <p class="client_company">Компания "Motoclub Пермь"</p>
+            </div>
+            <img src="./../img/case_motoclub/motoclub_logo.svg" alt="">
+        </div>
+        <div class="project">
+            <p style="color: #5CC3FD;">Проект: </p>
+            <p>Индивидуальная СРМ-система</p>
+        </div>
+        <div class="link_case">
+           <l style="color: #5CC3FD;">Ссылка </l>на проект: проект в разработке
+        </div>
+    </div>
+    <div class="main_container">
+        <p class="head_name"><l style="color: #5CC3FD;">Задачи</l> проекта:</p>
+        <div class="tasks">
+            <div class="task">
+                <div class="task_num">1. </div>
+                <div class="task_name">Бронирование и <l style="color: #5CC3FD;">управление заказами</l> </div>
+            </div>
+            <div class="task">
+                <div class="task_num">2. </div>
+                <div class="task_name"><l style="color: #5CC3FD;">Управление </l>персоналом, учет занятости</div>
+            </div>
+            <div class="task">
+                <div class="task_num">3. </div>
+                <div class="task_name"><l style="color: #5CC3FD;">Учет </l>финансов</div>        
+            </div>
+             <div class="task">
+                <div class="task_num">4. </div>
+                <div class="task_name"><l style="color: #5CC3FD;">Отчетность</div>
+            </div>
+        </div>
+    </div>
+    <div class="main_container">
+        <p class="head_name"><l style="color: #5CC3FD;">Главный </l>реализуемый функционал:</p>
+        <ul class="functional">
+            <li class="function">Управление задачами и проектами: <l style="color: #fff;">Создание проектов, задач, этапов, установка
+            сроков выполнения, приоритетов и зависимостей между задачами.</l> </li>
+            <li class="function">Расчет рабочего времени: <l style="color: #fff;">Возможность учета рабочего времени сотрудников, 
+                контроль за соблюдением рабочего графика, расчет заработной платы на основе тарифных ставок и отработанного времени.</l></li>
+            <li class="function">Управление ресурсами: <l style="color: #fff;">Планирование загрузки персонала, распределение задач
+            между сотрудниками, учет их квалификации и опыта.</l></li>
+            <li class="function">Управление клиентами: <l style="color: #fff;">Ведение клиентской базы, отслеживание истории
+            взаимоотношений с клиентами, управление контактами и сделками.</l></li>
+            <li class="function">Планирование и контроль бюджета: <l style="color: #fff;">Составление смет </l></li>
+            <li class="function">Управление поставщиками и закупками: <l style="color: #fff;">Поиск, выбор и взаимодействие с поставщиками, планирование и контроль закупок товаров и услуг.</l> </li>
+            <li class="function">Автоматизация документооборота: <l style="color: #fff;">Создание, согласование, утверждение и отправка документов, отслеживанеи статуса выполнения задач и проектов.</l></li>
+            <li class="function">Интеграция с другими системами: <l style="color: #fff;">Возможность интеграции с системами бухгалтерского учета, программ для связи и обмена сообщениями, интернет-магазинами и другими сервисами.</l></li>
+            <li class="function">Мониторинг и аналитика: <l style="color: #fff;">Анализ продуктивности работы сотрудников, оценка эффективности проектов и использования ресурсов, формирование отчетов. </l></li>
+        </ul>
+    </div>
+    <div class="main_container">
+        <p class="head_name"><l style="color: #5CC3FD;">Этапы </l>работы:</p>
+        <ul class="stages">
+            <li class="stage">Написание <l style="color: white;">ТЗ</l> </li>
+            <li class="stage">Разработка <l style="color: white;">дизайна прототипа сайта</l> </li>
+            <li class="stage">Внедрение <l style="color: white;">дизайна прототипа</l> </li>
+            <li class="stage">Разработка <l style="color: white;">функционала</l> </li>
+            <li class="stage">Внедрение <l style="color: white;">функционала на прототип</l> </li>
+            <li class="stage">Разработка <l style="color: white;">и внедрение нового функционала</l> </li>
+            <li class="stage">Разработка <l style="color: white;">и оптимизация дизайна (ПК и мобильная версия)</l> </li>
+        </ul>
+    </div>
+    <div class="main_container">
+        <p class="head_name"><l style="color: #5CC3FD;">Виз</l>уал:</p>
+        <div class="visual_pictures">
+            <div class="row">
+                <img src="./../img/case_motoclub/pic-1.png" alt="">
+                <img src="./../img/case_motoclub/pic-2.png" alt="">
+            </div>
+            <div class="row">
+                <img src="./../img/case_motoclub/pic-3.png" alt="">
+            <img src="./../img/case_motoclub/pic-4.png" alt="">
+            </div> 
+        </div>
+    </div>
+    <div class="main_container">
+        <p class="head_name">Отзыв <l style="color: #5CC3FD;">заказчика: </l></p>
+        <img class="ph_feedback" src="./../img/case_motoclub/Отзыв Motoclub.png" alt="">
+    </div> 
+    <div class="main_container">
+        <div class="divname" id="ОтветыНаВопросы">
+            <p style="color: white;">ОСТАЛИСЬ ВОПРОСЫ?</p>
+        </div>
+        <div class="consult_titile">
+            <div class="consult">
+                Закажите <l style="color: #5CC3FD;"> бесплатную </l> консультацию!
+            </div>
+        </div>
+        <div class="consult_text">
+            <p style="color: white;">Проконсультируем по разработке индивидуальных </p>
+            <p style="color: #5CC3FD;">веб-сервисов, мобильных приложений, ERP/CRM для вашего бизнеса, <l style="color: white;">сразу, на первом созвоне.</l></p>
+            <p style="color: white;">Бесплатно и без обязательств.</p>
+        </div>
+        <form class="main_form">
+            <input class="quest_input" name="name" type="text" placeholder="Как к Вам обращаться?">
+            <div class="phone-wrapper">
+                <div class="phone-wrapper__country" name="" id="">
+                    <img class="country-image" src="../../img/flags/rus.png" alt="">
+                    <img class="country-image__open-flags" src="../../img/index_html/arrow-down.svg" alt="">
+                </div>
+                <div class="phone-line"></div>
+                <input class="quest_input-phone" type="text" placeholder="+7 (000) 000-00-00">
+            </div>
+            <!-- Сделать панель с флагами -->
+
+            <input class="quest_input" name="email" type="text" placeholder="Ваша почта">
+            <select type="text" class="theme-wrapper" name="theme">
+                <option value="">Тема обращения</option>
+            </select>
+            
+            <div class="quest_input-desc">
+                <textarea maxlength="500" class="quest_textarea" name="description" type="text" placeholder="Описание проекта"></textarea>
+                <p class="quantity-simbols__desc">0/500</p>
+            </div>
+
+            <div class="quest-file__description">
+                <p style="color: #B6B6B6; font-family: 'Gilroy-Regular'; font-size: 25px; margin-top: 50px;">
+                    **О чем писать в сообщении
+                </p>
+                <p style="color: #B6B6B6; font-family: 'Gilroy-Regular'; font-size: 20px; width: 680px; margin-top: 25px; line-height: 28px;">
+                    Расскажите, чем занимается ваша компания, какие задачи должен решать цифровой продукт, на какие сроки и бюджет рассчитываете
+                </p>
+
+
+
+                <div class="quest-file__wrapper">
+                    <input class="quest-file" id="quest-file" type="file" name="files" multiple >
+                    <label for="quest-file" class="quest-file-button">
+                        <span class="quest-file__image"><img src="../../img/index_html/paperclip.png" alt=""></span>
+                        <span class="quest-file__button-text">Прикрепите файл</span>
+                     </label>
+                </div>
+
+                <p style="color: #B6B6B6; font-family: 'Gilroy-Regular'; font-size: 20px; width: 680px; margin-top: 25px; margin-bottom: 60px; line-height: 28px;">
+                    **Максимум 3 файла (.jpg, .png, .doc, .xls, .pdf), не более 24 МБ в сумме 
+                </p>
+            </div>
+
+
+
+            <button class="form_btn">
+                <l class="btn_text">Отправить</l>
+                <img src="./../../img/index_html/arrow-form-btn.svg" class="btn_img">
+            </button>
+            <p class="marking">
+                При нажатии на кнопку "Отправить", я даю согласие на обработку <a href="">Персональных данных.</a>
+            </p>
+        </form>
+        <div class="consult_titile">
+            <div class="consult">
+                Вы можете задать <l style="color: #5CC3FD;"> любой вопрос </l> в мессенджере или <l
+                    style="color: #5CC3FD;">по телефону</l>
+            </div>
+        </div>
+        <div class="connection">
+            <div class="connection_tg">
+                <a href="https://t.me/ooo_vebrazrabotka" class="telegram">Связаться через <l
+                        style="color: #5CC3FD;  margin-top: auto; margin-bottom: auto;"> Telegram</l></a>
+                <img src="./../../img/index_html/tg-icon_50x50.svg" alt="" style="margin-left: 13px;">
+            </div>
+            <div class="connection_phone">
+                <p class="phone">+7 (995) 668 35-84</p>
+                <p class="link" onclick="backcall()">Заказать <l style="color: #5CC3FD;">обратный звонок</l>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="main_container" style="margin-bottom: 90px;">
+        <div class="divname" id="Контакты">
+            <p style="color: white;">КОНТАКТЫ</p>
+        </div>
+        <div class="contacts">
+            <div>
+                <p class="company_name">OOO <l style="color: #5CC3FD;">"ВЕБ РАЗРАБОТКА"</l></p>
+                <p class="contact"><l style="color: white;">Почта: </l>vr-it.info@yandex.ru</p>
+                <p class="contact"><l style="color: white;">Телефон: </l>+7 (995) 668-35-84</p>
+                <p class="contact"><l style="color: white;">Адрес: </l>шоссе космонавтов, д. 111д, подъезд 3, оф. 3</p>
+                <a class="contact" href="https://vk.com/vr_it_ru" style="text-decoration: underline; text-decoration-color: white; cursor: pointer;"><l style="color: white;">Мы </l>Вконтакте</a>
+            </div>
+            <div class="map" id="yandex-map"></div>
+        </div>
+    </div>
+    <div class="main_container">
+        <div class="footer">
+            <div>
+                <p class="column_name">УСЛУГИ</p>
+                <div class="foot_link" onclick="document.location=''">Разработка ПО</div>
+                <div class="foot_link" onclick="document.location='./../html/mobile_apps.html'">Разработка мобильного приложений</div>
+                <div class="foot_link" onclick="document.location=''">Разработка веб-сервисов</div>
+            </div>
+            <div>
+                <p class="column_name">ПРОДУКТЫ</p>
+                <div class="foot_link">Крипт.Клауд</div>
+                <div class="foot_link">ВОРКО</div>
+                <div class="foot_link">Фото-РЭЙ</div>
+            </div>
+            <div>
+                <p class="column_name">КОНТАКТЫ</p>
+                <div class="foot_link">+7 (995) 668-35-84</div>
+                <div class="foot_link">vr-it.info@yandex.ru</div>
+            </div>
+            <div style="display: flex; justify-content: space-around;">
+                <a href="https://t.me/ooo_vebrazrabotka" style="margin-right: 30px;"><img class="social_logo" src="./../../img/index_html/tg-icon.svg"></a>
+                <a href="https://vk.com/vr_it_ru"><img class="social_logo" src="./../../img/index_html/vk-icon.svg" alt=""></a>
+            </div>
+        </div>
+        <div class="line"></div>
+        <p style="color: #fff; font-family: 'Gilroy-Regular'; font-size: 20px; margin-top: 30px;"><l style="margin-right: 10px;">©</l> «ВР» 2019-2024</p>
+    </div>
+    
+    <script src="./../js/motoclub.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=79acaec8-d0fe-44ae-a71f-d56ef2e3ef7e&lang=ru_RU"></script>
+    <script src="./../js/yanmap.js"></script>
+    <script src="./../js/form/main_form.js"></script>
+    <script src="./../js/form/pop_form.js"></script>
+</body>
+</html>
