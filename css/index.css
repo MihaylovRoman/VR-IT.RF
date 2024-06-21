@@ -356,7 +356,6 @@
     font-weight: 900;
     font-size: 50px;
     line-height: 60px;
-    text-align: center;
 }
 
 .divmvp-description {
@@ -507,6 +506,12 @@
 .special-pt-55 {
     padding-top: 55px;
     text-align: center;
+}
+.pb-55{
+    padding-bottom: 55px;
+}
+.pb-90{
+    padding-bottom: 90px;
 }
 
 .namestep {
@@ -902,7 +907,15 @@
 
 
 
-
+.description-quantity {
+    color: #B6B6B6;
+    font-family: 'Gilroy-Regular';
+    font-size: 20px;
+    width: 680px;
+    margin-top: 25px;
+    margin-bottom: 60px;
+    line-height: 28px;
+}
 
 
 .description-write {
@@ -922,27 +935,90 @@
 }
 
 
-.crypt-work__notification{
+.crypt-work__notification {
     width: 64%;
     margin-top: 70px;
     display: flex;
     align-items: start;
     justify-content: start;
 }
-.how-work__image{
+
+.how-work__image {
     width: 504px;
     height: 417px;
     background-color: #eee;
 }
 
-.how-work__tags{
+.how-work__tags {
     display: flex;
     align-items: start;
     margin-bottom: 135px;
 }
-.how-crypt__text{
+
+.how-crypt__text {
     width: 745px;
 }
+
+.customer-product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.customer-link {
+    margin: 0;
+    margin-top: 30px;
+    font-family: 'Gilroy-Regular';
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 41.4px;
+    text-align: left;
+    cursor: pointer;
+    background-image: linear-gradient(90deg, #5CC3FD 0%, #364CA6 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.customer-link__line {
+    height: 1px;
+    width: 36.4%;
+    background: linear-gradient(90deg, #5CC3FD 0%, #364CA6 100%);
+}
+
+.mb120 {
+    margin-bottom: 120px;
+}
+
+.mb70 {
+    margin-bottom: 70px;
+}
+
+.customer-task {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.product-task{
+    margin-bottom: 90px;
+}
+
+.product-task__components{
+    margin: 0;
+}
+.product-task__text {
+    margin: 0;
+    color: #fff;
+    font-family: 'Gilroy-Regular';
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 54.3px;
+    text-align: left;
+
+}
+
+
+
 
 
 body {
@@ -1413,6 +1489,17 @@ body {
     margin-bottom: 32px;
 }
 
+.divname-gradient {
+    color: #fff;
+    font-family: 'Tactic Sans Extended';
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 82.8px;
+    text-align: left;
+    margin-bottom: 90px;
+}
+
 .divname {
     font-family: 'Tactic Sans Extended';
     font-size: 70px;
@@ -1819,7 +1906,8 @@ body {
     margin-bottom: 35px;
     background-color: white;
 }
-.lineasseat-special-crypto{
+
+.lineasseat-special-crypto {
     margin: 0;
     width: 59px;
     height: 0.8px;
