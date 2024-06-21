@@ -375,6 +375,21 @@ body{
     margin-bottom: 80px;
 
 }
+.description-write {
+    color: #B6B6B6;
+    font-family: 'Gilroy-Regular';
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.description-do-company {
+    color: #B6B6B6;
+    font-family: 'Gilroy-Regular';
+    font-size: 20px;
+    width: 680px;
+    margin-top: 25px;
+    line-height: 28px;
+}
 .divname p{
     color: #fff;
     margin: 0;

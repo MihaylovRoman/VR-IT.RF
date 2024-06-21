@@ -355,6 +355,21 @@ body{
     cursor: pointer;
     background-image: url(./../img/index_html/triangle-right.svg);
 }
+.description-write {
+    color: #B6B6B6;
+    font-family: 'Gilroy-Regular';
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.description-do-company {
+    color: #B6B6B6;
+    font-family: 'Gilroy-Regular';
+    font-size: 20px;
+    width: 680px;
+    margin-top: 25px;
+    line-height: 28px;
+}
 .divname{
     font-family: 'TacticSans';
     font-size: 60px;
