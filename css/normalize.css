@@ -13,6 +13,7 @@ button{
 .full_thanks{
   display: none;
 }
+
 .full_thanks.active{
   background-color: #000000c9;
   display: block;

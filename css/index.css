@@ -1,4 +1,36 @@
+.gradient-image1 {
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+    margin-bottom: 60px;
+}
+
+.resh_image{
+    width: 49px;
+    height: 49px;
+}
+.partners-lowimage {
+    margin: 0px 0px 0px 50px;
+}
+
+.mb-78 {
+    margin-bottom: 78px;
+}
+
+.mb-90 {
+    margin-bottom: 90px;
+}
+
+.w-664 {
+    width: 664px;
+}
+
+.w-500 {
+    width: 500px;
+}
+
 .main_wrapper {
+    width: 100%;
     margin-top: 210px;
     display: flex;
     flex-direction: column;
@@ -248,6 +280,7 @@
     font-family: 'Tactic Sans Extended';
     font-size: 70px;
     margin-bottom: 70px;
+    line-height: 96.6px;
 }
 
 .fatherland-namecase {
@@ -507,10 +540,12 @@
     padding-top: 55px;
     text-align: center;
 }
-.pb-55{
+
+.pb-55 {
     padding-bottom: 55px;
 }
-.pb-90{
+
+.pb-90 {
     padding-bottom: 90px;
 }
 
@@ -998,14 +1033,17 @@
     display: flex;
     align-items: start;
     justify-content: center;
+    width: 860px;
 }
-.product-task{
+
+.product-task {
     margin-bottom: 90px;
 }
 
-.product-task__components{
+.product-task__components {
     margin: 0;
 }
+
 .product-task__text {
     margin: 0;
     color: #fff;
@@ -1487,6 +1525,7 @@ body {
     font-family: 'Tactic Sans Extended';
     font-size: 70px;
     margin-bottom: 32px;
+    line-height: 96.6px;
 }
 
 .divname-gradient {
@@ -1645,6 +1684,8 @@ body {
     box-shadow: 1.67px 1.67px 8.37px 0px #5CC3FD33;
     background: linear-gradient(90deg, #5CC3FD 0%, #364CA6 86.4%);
 }
+
+.cardname {}
 
 .submit:hover {
     background: linear-gradient(-90deg, #5CC3FD 0%, #364CA6 86.4%);
@@ -1976,8 +2017,6 @@ body {
 .case {
     width: 100%;
     cursor: pointer;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 60px;
 }
 
@@ -2377,13 +2416,14 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
+
+.bgfathercase {}
 
 .partners>img {
     margin-bottom: 70px;
     margin-right: 50px;
-
 }
 
 .news {
@@ -2558,10 +2598,26 @@ body {
     /* Chrome < 4, Legacy iOS */
 }
 
+@media screen and (max-width: 1450px) {
+    .main_wrapper {
+        margin: 0;
+    }
+
+    .firstdescription {
+        margin-top: 20px;
+    }
+
+    .seconddescription {
+        margin-top: 20px;
+    }
+
+}
+
 @media screen and (max-width: 1350px) {
     body {
         overflow-x: hidden;
     }
+
 
     .main_container {
         width: 800px;
@@ -2612,15 +2668,56 @@ body {
         left: 50%;
     }
 
-    .divname {
+    .divname,
+    .divname-service,
+    .divname-about,
+    .divname-gradient {
         font-size: 54px;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
     }
 
-    .divname p {
+    .divname-service {
+        line-height: 60px;
+    }
+
+    .what-do-our {
+        width: 100%;
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .when-need__image {
+        width: 50px;
+        height: 50px;
+    }
+
+
+
+
+    .fatherland-link {
+        font-size: 17px;
+    }
+
+    .divname p,
+    .divname-service p,
+    .divname-gradient,
+    .divname-about {
         text-align: center;
+    }
+
+    .our-product {
+        display: block;
+    }
+
+    .bgfathercase {
+        width: 100%;
+    }
+
+    .fatherland-namecase {
+        font-size: 17px;
+        margin-left: 17px;
     }
 
     .sitename {
@@ -2630,10 +2727,11 @@ body {
     .firstdescription {
         text-align: center;
         width: 100%;
-        font-size: 30px;
+        font-size: 50px;
     }
 
     .orderproject {
+        width: 99%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -2646,10 +2744,12 @@ body {
 
     .logo {
         width: 65px;
+        margin-right: 20px;
     }
 
     .navbar>a {
         font-size: 18px;
+        margin-right: 15px;
     }
 
     .phone_header {
@@ -2741,8 +2841,6 @@ body {
     }
 
     .case {
-        margin-left: auto;
-        margin-right: auto;
         margin-bottom: 50px;
     }
 
@@ -2794,6 +2892,118 @@ body {
         margin-right: auto;
     }
 
+    .phone-wrapper {
+        width: 100%;
+    }
+
+    .theme-wrapper {
+        width: 100%;
+    }
+
+    .new_razum {
+        width: 49%;
+    }
+
+    .new_best_company {
+        width: 36%;
+    }
+
+    .new_crypt {
+        width: 40%;
+    }
+
+    .new_fight_robots {
+        width: 53%;
+    }
+
+    .new_text {
+        font-size: 15px;
+    }
+
+    .quest_textarea {
+        width: 100%;
+    }
+
+    .quantity-simbols__desc {
+        right: 30px;
+    }
+
+    .description-write {
+        text-align: left;
+    }
+
+    .description-do-company,
+    .description-quantity {
+        width: 100%;
+        text-align: left;
+    }
+
+    .mvp-notification {
+        width: 100%;
+    }
+
+    .crypt-work__notification {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .how-work__image {
+        width: 400px;
+        height: 350px;
+    }
+
+    .mvp-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .steps {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .when-need__generaltext {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .when-need__text {
+        font-size: 14px;
+    }
+
+    .cost-table {
+        width: 86%;
+    }
+
+    .cost-option {
+        width: 100%;
+    }
+
+    .different-column1 {
+        width: 280px;
+    }
+
+    .different-column2 {
+        width: 230px;
+    }
+
+    .different-tag {
+        font-size: 27px;
+    }
+
+    .different-desc {
+        width: 200px;
+        font-size: 12px;
+    }
+
+    .price-text {
+        font-size: 24px;
+    }
+
+
+
+
+
+
+
     .main_form {
         text-align: center;
         margin-left: auto;
@@ -2820,6 +3030,165 @@ body {
 }
 
 @media screen and (max-width: 1100px) {
+
+    .w-664 {
+        width: 100%;
+    }
+
+    .w-500 {
+        width: 100%;
+    }
+
+    .pb-55 {
+        padding-bottom: 20px;
+    }
+
+    .pb-90 {
+        padding-bottom: 45px;
+    }
+
+    .product-task__text {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .divmvp {
+        font-size: 38px;
+    }
+
+    .divmvp-description {
+        font-size: 25px;
+    }
+
+    .mvp-text {
+        font-size: 20px;
+        padding: 25px 10px 19px 25px;
+        width: 602px;
+    }
+
+    .mvp-post_link,
+    .mvp-text2,
+    .mvp-post_link2 {
+        font-size: 20px;
+    }
+
+    .mvp-cards {
+        column-gap: 40px;
+    }
+
+    .steps {
+        column-gap: 37px;
+    }
+
+    .stack-type {
+        font-size: 40px;
+    }
+
+    .stack-lang__name {
+        font-size: 30px;
+    }
+
+    .reward__image {
+        width: 90px;
+        height: 90px;
+    }
+
+    .reward__generaltext {
+        font-size: 25px;
+    }
+
+    .when-need__line {
+        margin-top: 30px;
+    }
+
+    .cost-text {
+        font-size: 25px;
+    }
+
+    .format-tag {
+        font-size: 38px;
+    }
+
+    .price-tags {
+        margin-bottom: 90px;
+    }
+
+    .price-tags__text {
+        font-size: 20px;
+    }
+
+    .price-text,
+    .price-post_link {
+        font-size: 20px;
+    }
+
+    .price-and-time__image {
+        height: 80px;
+        width: 80px;
+    }
+
+    .special-pt-100 {
+        padding-top: 20px;
+    }
+
+    .about-company__tag {
+        width: 80px;
+        font-size: 12px;
+    }
+
+    .about-company__text {
+        font-size: 15px;
+    }
+
+    .about-company__tag-line::after {
+        width: 15px;
+        border-width: 0px 15px;
+
+    }
+
+    .about-company__img {
+        width: 100%;
+    }
+
+    .experience__num {
+        font-size: 70px;
+    }
+
+    .experience__separator {
+        margin: 0px 30px;
+    }
+
+    .office-photo__image>img {
+        width: 49%;
+        height: 255px;
+    }
+
+    .residents__tag {
+        font-size: 35px;
+    }
+
+    .residents__proof {
+        font-size: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     /* НОВЫЕ МОДАЛКИ НАЧАЛО */
     .full_thanks.active {
@@ -2863,6 +3232,11 @@ body {
     /* НОВЫЕ МОДАЛКИ КОНЕЦ */
     .main_container {
         width: 720px;
+    }
+
+    .partners>img {
+        margin-bottom: 30px;
+        margin-right: 40px;
     }
 
     .full_popup_backcall.active {
@@ -2916,11 +3290,23 @@ body {
     }
 
     .firstdescription {
-        font-size: 26px;
+        font-size: 45px;
+        line-height: 70px;
     }
 
-    .divname {
+    .seconddescription {
+        font-size: 19px;
+    }
+
+    .divname,
+    .divname-service,
+    .divname-about,
+    .divname-gradient {
         font-size: 46px;
+    }
+
+    .company-tag {
+        font-size: 80px;
     }
 
     .nav.open {
@@ -3071,14 +3457,6 @@ body {
         font-size: 36px;
     }
 
-    .case {
-        width: 470px;
-    }
-
-    .bgcase {
-        width: 470px;
-    }
-
     .assets {
         column-gap: 10px;
     }
@@ -3114,12 +3492,13 @@ body {
         font-size: 22px;
     }
 
-    .inside {
-        padding-bottom: 30px;
+    .new_best_company-line {
+        opacity: 0;
+        visibility: hidden;
     }
 
-    .plus {
-        padding: 4px 12px;
+    .inside {
+        padding-bottom: 30px;
     }
 
     .advantage_text {
@@ -3181,9 +3560,358 @@ body {
     .nav {
         left: 45%;
     }
+
+    .customer-product>p {
+        font-size: 28px;
+    }
+
+    .customer-link {
+        font-size: 19.5px;
+    }
 }
 
 @media screen and (max-width: 820px) {
+    .mb70{
+        margin-bottom: 30px;
+    }
+    .gradient-image1{
+        height: 200px;
+    }
+    .product-task{
+        margin-bottom: 50px;
+    }
+    .product-task__text{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .residents__tag {
+        line-height: 40px;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .experience__num {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    .experience__separator {
+        margin: 0px 10px;
+    }
+
+    .experience__text {
+        width: 100px;
+        font-size: 12px;
+    }
+
+    .office-photo__image {
+        margin-bottom: 10px;
+    }
+
+    .office-photo__image>img {
+        height: 100px;
+    }
+
+    .residents__proof {
+        line-height: 20px;
+        font-size: 12px;
+    }
+
+    .when-need__wrapper-image {
+        margin-right: 20px;
+    }
+
+    .when-need__generaltext {
+        line-height: 20px;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .when-need__line {
+        margin-bottom: 40px;
+    }
+
+    .when-need__text {
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .when-need__image {
+        height: 30px;
+        width: 30px;
+    }
+
+    .divmvp {
+        font-size: 28px;
+    }
+
+    .divmvp-description {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .mvp-bell {
+        height: 30px;
+        width: 30px;
+    }
+
+    .mvp-text {
+        font-size: 12px;
+        line-height: 25px;
+        width: 258px;
+    }
+
+    .mvp-post_link,
+    .mvp-text2,
+    .mvp-post_link2 {
+        width: 89%;
+        font-size: 12px;
+    }
+
+    .mvp-text2 {
+        margin-bottom: 20px;
+    }
+
+    .mvp-card {
+        width: 130px;
+        height: 130px;
+    }
+
+    .mvp-card>img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .mvp-card__text {
+        margin-top: 5px;
+        font-size: 8px;
+    }
+
+    .mvp-cards {
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .steps {
+        column-gap: 17px;
+        row-gap: 15px;
+    }
+
+    .step {
+        width: 162px;
+        height: 100px;
+    }
+
+    .numstep {
+        font-size: 15px;
+        margin: 10px 10px 0px 10px;
+    }
+
+    .namestep {
+        margin: 15px 0px 10px 10px;
+        font-size: 10px;
+    }
+
+    .stack-type {
+        font-size: 25px;
+    }
+
+    .stack-lang__name {
+        font-size: 18px;
+    }
+
+    .stack-lang__image {
+        height: 50px;
+    }
+
+    .w-664 {
+        width: 85%;
+    }
+
+    .w-500 {
+        width: 100%;
+    }
+
+    .reward__image {
+        width: 50px;
+        height: 50px;
+    }
+
+    .reward__generaltext {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .when-need__line {
+        margin-top: 20px;
+    }
+
+    .cost-text {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .cost-table {
+        padding: 25px;
+    }
+
+    .option-text {
+        font-size: 15px;
+    }
+
+    .option-line {
+        margin-top: 7px;
+    }
+
+    .format-tag {
+        line-height: 40px;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .price-text {
+        font-size: 15px;
+    }
+
+    .price-tags>img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .price-tags__text,
+    .price-post_link {
+        font-size: 15px;
+    }
+
+    .price-and-time__image {
+        margin-right: 20px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .different-column1 {
+        width: 115px;
+    }
+
+    .different-column2 {
+        width: 130px;
+    }
+
+    .diff-name {
+        font-size: 15px;
+    }
+
+    .different-tag {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .different-image {
+        height: 25px;
+        width: 25px;
+    }
+
+    .different-desc {
+        font-size: 8px;
+        width: 100px;
+    }
+
+    .different-pm {
+        width: 20px;
+        height: 20px;
+    }
+
+    .different {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .what-do-our {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .description-quantity {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .company-tag {
+        padding-bottom: 0;
+        line-height: 70px;
+        font-size: 50px;
+    }
+
+    .divname-about {
+        font-size: 26px;
+        line-height: 0px;
+        margin-bottom: 15px;
+    }
+
+    .company-world {
+        font-family: 'Gilroy-SemiBold';
+        font-size: 16px;
+    }
+
+    .about-company__tag {
+        font-size: 9px;
+        line-height: 20px;
+    }
+
+    .about-company__tag-line {
+        width: 70px;
+        border-width: 0px 5px;
+    }
+
+    .lineasseat-special-crypto {
+        margin: 10px 0px 15px 11px;
+    }
+
+    .mb-78 {
+        margin-bottom: 10px;
+    }
+
+    .crypt-image {
+        height: 200px;
+        margin-bottom: 10px;
+    }
+
+    .crypt-description {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .about-company__text {
+        line-height: 25px;
+        font-size: 10px;
+    }
+
+    .about-company:nth-child(2) {
+        flex-wrap: wrap;
+    }
+
+    .about-company__text:nth-child(2) {
+        margin: 15px 0px;
+    }
+
+    .about-company:nth-child(3) {
+        flex-wrap: wrap-reverse;
+    }
+
+    .how-work__image {
+        width: 150px;
+        height: 150px;
+    }
+
+
+
+
+
+
+
+
+
+
     .thanks_span {
         font-size: 18px;
         width: 60%;
@@ -3242,13 +3970,19 @@ body {
 
     .main_container {
         width: 350px;
-        margin-bottom: 70px;
         margin-bottom: 60px;
     }
 
+    .arrow-down {
+        width: 8px;
+        height: 4px;
+        margin: 0;
+        margin-bottom: 1px;
+    }
+
     .burger {
-        width: 30px;
-        height: 22px;
+        width: 25px;
+        height: 16px;
     }
 
     .header {
@@ -3256,13 +3990,13 @@ body {
     }
 
     .logo {
-        width: 40px;
-        margin-right: 20px;
+        width: 30px;
+        margin-right: 10px;
     }
 
     .navbar>a {
         font-size: 10px;
-        margin-right: 10px;
+        margin-right: 2px;
     }
 
     .sitename {
@@ -3274,17 +4008,25 @@ body {
     }
 
     .firstdescription {
-        font-family: 'Gilroy-SemiBold';
-        font-size: 12px;
+        margin: 0;
+        font-family: 'Gilroy-Bold';
+        font-size: 20px;
         line-height: 26px;
         font-weight: 500;
         width: 95%;
         margin-left: auto;
         margin-right: auto;
+        line-height: 40px;
     }
 
     .firstdescription>p {
-        margin-bottom: 30px;
+        margin-bottom: 15px;
+    }
+
+    .seconddescription {
+        margin: 0;
+        font-size: 12px;
+        line-height: 20px;
     }
 
     .business {
@@ -3294,16 +4036,44 @@ body {
     }
 
     .orderproject {
+        margin-top: 10px;
         font-family: 'Gilroy-SemiBold';
         font-size: 12px;
-        width: 40%;
-        padding: 9px 6px;
+        width: 100%;
+        height: 40px;
         border-radius: 5px;
         font-weight: 500;
     }
 
-    .divname {
+    .divname-service {
+        padding-top: 20px;
+        margin-bottom: 30px;
+        line-height: 30px;
+    }
+
+    .divname,
+    .divname-service,
+    .divname-gradient {
+        line-height: 50px;
         font-size: 26px;
+    }
+
+    .customer-product>p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .customer-product>img{
+        width: 110px;
+    }
+    .mb120{
+        margin-bottom: 50px;
+    }
+    .customer-link{
+        font-size: 12px;
+        line-height: 10px;
+    }
+    .customer-link__line{
+        width: 46.5%;
     }
 
     .divname>p {
@@ -3323,12 +4093,33 @@ body {
 
     }
 
+    .card>img {
+        width: 25px;
+        margin-top: 10px;
+    }
+
+    .card__hashtag {
+        margin-top: 10px;
+        font-family: 'Gilroy-SemiBold';
+        font-size: 8px;
+    }
+
+    .submit {
+        width: 130px;
+        height: 35px;
+    }
+
+    .submit_a {
+        font-size: 5px;
+    }
+
     .vr {
         font-size: 12px;
     }
 
     .cardname {
-        top: 20%;
+        width: 70%;
+        margin-top: 20px;
         font-size: 10px;
     }
 
@@ -3341,7 +4132,6 @@ body {
 
     .submit>a {
         font-size: 14px;
-        padding: 8px 13px;
         border-radius: 5px;
     }
 
@@ -3391,6 +4181,10 @@ body {
         height: 160px;
     }
 
+    .lineasseat {
+        margin: 5px 0px 10px 10px
+    }
+
     .asset.nl {
         width: 154px;
         height: 154px;
@@ -3428,10 +4222,8 @@ body {
     }
 
     .watch_vacancy {
-        top: 10%;
-        left: 10%;
+        margin-left: 10px;
         font-size: 9px;
-        padding: 5px 10px;
         border-radius: 5px;
         width: 60%;
         text-align: center;
@@ -3443,14 +4235,17 @@ body {
     }
 
     .case {
-        width: 300px;
-        margin-left: auto;
-        margin-right: auto;
+        width: 100%;
     }
 
     .case>img {
-        width: 300px;
+        width: 100%;
         height: 160px;
+    }
+
+    .aboutcase {
+        font-size: 12px;
+        line-height: 20px;
     }
 
     .toprow {
@@ -3467,8 +4262,12 @@ body {
         display: none;
     }
 
+    .case-tags__link {
+        width: 170px;
+    }
+
     .namecase {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .technologies {
@@ -3513,8 +4312,15 @@ body {
         margin-left: auto;
         margin-right: auto;
         display: block;
+        height: 20px;
         margin-top: 30px;
         margin-bottom: 30px;
+    }
+
+    .case-tags__name_circle {
+        margin-right: 15px;
+        width: 20px;
+        height: 20px;
     }
 
     .popup_vacancy.active {
@@ -3595,7 +4401,8 @@ body {
     }
 
     .plus {
-        padding: 4px 10px;
+        height: 24px;
+        width: 24px;
     }
 
     .inside {
@@ -3618,6 +4425,98 @@ body {
         font-size: 14px;
         padding: 12px;
         border-radius: 5px;
+    }
+
+    .phone-wrapper {
+        margin-bottom: 10px;
+        width: 313px;
+        height: 42px;
+        border-radius: 5px;
+    }
+
+    .country-image {
+        width: 23px;
+        height: 15px;
+    }
+
+    .country-image__open-flags {
+        width: 11px;
+        height: 5px;
+    }
+
+    .quest_input-phone {
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .theme-wrapper {
+        height: 42px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        background-position-x: calc(100% - 10px);
+        background-size: 15px 10px;
+    }
+
+    .theme-wrapper>option,
+    .theme-wrapper {
+        font-size: 14px;
+    }
+
+    .description-write {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .quest-file__image {
+        margin-right: 15px;
+    }
+
+    .quest-file__button-text {
+        font-size: 14px;
+    }
+
+    .quest-file__image>img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .description-do-company {
+        font-size: 14px;
+    }
+
+    .quest_textarea {
+        height: 200px;
+        padding-top: 15px;
+        font-size: 14px;
+    }
+
+    .quantity-simbols__desc {
+        right: 10px;
+        font-size: 14px;
+    }
+
+    .phone-line {
+        width: 30px;
+    }
+
+    .new {
+        padding: 0px 10px;
+    }
+
+    .new_crypt {
+        width: 36%;
+    }
+
+    .new_best_company {
+        width: 32%;
+    }
+
+    .new_text {
+        line-height: 10px;
+    }
+
+    .line {
+        margin: 10px 0px;
     }
 
     .main_form {
@@ -3693,6 +4592,7 @@ body {
 
     .partners>img {
         width: 80px;
+        margin-right: 30px;
     }
 
     .nav_point {
@@ -3722,6 +4622,7 @@ body {
 
     .new_text {
         font-size: 10px;
+        width: 100%;
     }
 
     .news {
